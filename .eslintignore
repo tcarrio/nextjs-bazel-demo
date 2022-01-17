@@ -1,0 +1,7 @@
+# compiled output
+/dist
+/bazel-out
+
+# dependencies
+/node_modules
+yarn.lock

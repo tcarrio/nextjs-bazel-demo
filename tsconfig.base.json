@@ -1,0 +1,36 @@
+{
+    "composite": true,
+    "compileOnSave": false,
+    "compilerOptions": {
+      "rootDirs": [
+        ".",
+        "bazel-out/host/bin",
+        "bazel-out/darwin-fastbuild/bin",
+        "bazel-out/k8-fastbuild/bin",
+        "bazel-out/x64_windows-fastbuild/bin",
+        "bazel-out/darwin-dbg/bin",
+        "bazel-out/k8-dbg/bin",
+        "bazel-out/x64_windows-dbg/bin"
+      ],
+      "sourceMap": true,
+      "declaration": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "target": "es2019",
+      "module": "commonjs",
+      "lib": ["es2019", "dom"],
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "strictNullChecks": true,
+      "baseUrl": ".",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "typeRoots": ["@types", "./node_modules/@types"],
+      "paths": {}
+    },
+    "exclude": ["node_modules", "tmp", "bazel-out", "dist"]
+  }
+  

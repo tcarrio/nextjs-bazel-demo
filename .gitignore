@@ -1,0 +1,15 @@
+# general artifacts
+dist/
+
+# node artifacts
+/node_modules
+/yarn-error.log
+
+# user configurations
+.env
+
+# bazel artifacts
+/bazel-bin
+/bazel-out
+/bazel-testlogs
+/bazel-*
