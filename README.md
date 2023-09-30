@@ -1,3 +1,7 @@
+> ⚠️ NextJS has much better Bazel support from Aspect with their new NodeJS rules.
+>
+> You should check out [bazelbuild/examples](https://github.com/bazelbuild/examples/tree/main/frontend/next.js) for a solution hosted by the Bazel org!
+
 # nextjs-bazel-demo
 
 This app setups up a basic Next.js app with Bazel.
